@@ -1,0 +1,69 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/table.jpg");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    min-width: 10px;
+}
+
+h1 {
+    padding-top: 25px;
+    color: rgb(250, 189, 36);
+    font-size: 40px;
+    text-shadow: 2px 3px 0px rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+
+#message-el {
+    font-style: italic;
+    font-size: 24px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 450px;
+    margin: auto;
+    color: black;
+    box-shadow: 0 5px 5px black;
+}
+
+#sum-el{
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+button {
+    color: #102218;
+    width: 250px;
+    height: 50px;
+    background: rgb(250, 189, 36);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-size: 20px;
+    box-shadow: 0 5px 5px black;}
+
+#cards-el img {
+    height: 200px;
+}
+
+.card-container {
+    padding-top: 50px;
+    display: inline-block;
+    text-align: center; 
+    margin: 10px; 
+}
+
+.card-value {
+    color: rgb(0, 0, 0); 
+    font-size: 16px; 
+    margin-top: 10px; 
+    box-shadow: 0 5px 5px black;
+    background: rgb(255, 255, 255);
+}
