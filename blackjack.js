@@ -48,7 +48,7 @@ function renderGame() {
 
     
         let cardImage = document.createElement("img");
-        cardImage.src = "images/" + card.image;
+        cardImage.src = "images2/" + card.image;
         cardImage.alt = "Card";
         cardDiv.appendChild(cardImage);
 
